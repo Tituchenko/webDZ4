@@ -99,13 +99,13 @@
           <h5 class="w3-opacity"><b><?php echo $workName; ?></b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $work['startDate']; ?> -
           <?php if ($work['endDate']=='Current') { ?>
-          <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <span class="w3-tag w3-teal w3-round">Current</span>
           <?php }
           else { 
            echo $work['endDate'];
           }
           ?>
-          
+          </h6>
           <p><?php echo $work['overview'];?></p>
           <hr>
         </div>
